@@ -1,0 +1,14 @@
+<div class="container">
+  <form [formGroup]="numberForm">
+    <input
+      class="number"
+      type="number"
+      formControlName="number"
+      placeholder="Ingresa un número"
+    />
+    <button (click)="clickButton()">Calcular</button>
+  </form>
+  <div class="result">
+    <app-result-view [result]="resultSerie" [error]="error"></app-result-view>
+  </div>
+</div>

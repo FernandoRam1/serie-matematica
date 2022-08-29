@@ -1,0 +1,20 @@
+.result{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2vh;
+  min-width: 280px;
+  max-width: 380px;
+  height: 30px;
+  border: 1.5px solid #11ce76;
+  font-size: 24px;
+  border-radius: 6px;
+}
+.error{
+  font-size: 12px;
+  width: 280px;
+  border: 1.5px solid #df1d1d;
+  color:#df1d1d;
+  border-radius: 6px;
+  padding: 4px;
+}
